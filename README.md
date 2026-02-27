@@ -68,11 +68,14 @@
                   └───────────────────────────────┘
 
 ## General instruction
-Python version compatibility: Python 3.10+ recommended.
+# Python version compatibility: Python 3.10+ recommended.
 Usage example: 
 python ingest.py
 python app-local-llm.py
 python app-gemini-api.py
+# Download LLaMA GGUF model
+- Download `llama-3.2-1b-instruct-q4_k_m.gguf` from [(https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF/blob/main/llama-3.2-1b-instruct-q4_k_m.gguf)]
+- Place it in `models/` folder:
 
 ## 1. Domain: University Department Handbook and Rules
 
