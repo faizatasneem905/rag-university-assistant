@@ -75,7 +75,10 @@ python app-local-llm.py
 python app-gemini-api.py
 # Download LLaMA GGUF model
 - Download `llama-3.2-1b-instruct-q4_k_m.gguf` from [(https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF/blob/main/llama-3.2-1b-instruct-q4_k_m.gguf)]
-- Place it in `models/` folder:
+- Place it in `models/` folder
+# Google Gemini API Key
+1. Create your own API key in [Google Cloud Console](https://console.cloud.google.com/).  
+2. Add it to a `.env` file in the project root:  
 
 ## 1. Domain: University Department Handbook and Rules
 
