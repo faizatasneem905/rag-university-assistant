@@ -89,7 +89,7 @@ python app-gemini-api.py
 - Supports retrieval, citations, and fallback answers  
 - Synthetic, testable, meets assessment criteria  
 
----
+----
 
 ## 2. Ingest Script Summary
 
@@ -107,7 +107,7 @@ python app-gemini-api.py
 
 **Output:** 38 documents → 46 chunks → vectorstore ready at `vectorstore/` for retrieval and RAG QA  
 
----
+----
 
 ## 3. Local LLM Version (app.py) – Issues
 
@@ -124,7 +124,7 @@ python app-gemini-api.py
 
 **Note:** Other smaller local LLMs could have been used, but time constraints prevented further testing  
 
----
+----
 
 ## 4. API-Based Version (app.py – Google Gemini)
 
